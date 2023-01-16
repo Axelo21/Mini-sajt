@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="Styles.css">
+    <script src="https://kit.fontawesome.com/894de8aefb.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="login-body">
     <div class="logo-div-login">
         <a href="HomePage.html"><img src="afr_glow.png" alt=""></a>
     </div>
-
+    
     <div class="user-input">
-        <div class="email-div">
+        <p id="log-in-text">Log In</p>
+        <div class="login-input-div">
+            <i class="fa-solid fa-envelope fa-2x"></i>
             <input class="email-input" type="email">
+        </div>
+        <div class="login-input-div">
+            <i class="fa-solid fa-key fa-2x"></i>
+            <input class="pass-input" type="password">
+        </div>
+        <div class="login-input-div">
+            <a href="HomePage.html"><button class="login-button" type="button">Log In</button></a>
         </div>
     </div>
 </body>

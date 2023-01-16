@@ -16,6 +16,7 @@ body {
     border-left: 0px;
     border-color: black;
     border-style: solid;
+    position: fixed;
 }
 
 .nav_bar img{
@@ -64,6 +65,7 @@ li a:hover:not(.aktiv) {
 }
 
 .banner {
+
     width: 80%;
     margin-left: 2%;
 }
@@ -168,10 +170,6 @@ li a:hover:not(.aktiv) {
     margin-top: 5px;
 }
 
-.icon-size {
-
-}
-
 .icon-left {
     float: left;
     background-color: rgba(128, 128, 128, 0);
@@ -219,7 +217,7 @@ li a:hover:not(.aktiv) {
 .current-standings{
     width: 30%;
     float: right;
-    margin-top: -10%;
+    margin-top: -15%;
     margin-right: 200px;
     padding: 10px;
 }
@@ -269,11 +267,13 @@ li a:hover:not(.aktiv) {
 
 .email-input{
     width: 65%;
-    height: 55px;
+    height: 50px;
 
-    margin-left: 17.5%;
-    margin-right: 15.5%;
-    margin-top: 20%;
+    margin-left: 19.5%;
+    margin-right: 13.5%;
+    margin-top: -14%;
+
+    float: left;
 
     border-style: solid;
     border-radius: 10px;
@@ -281,6 +281,42 @@ li a:hover:not(.aktiv) {
     border-width: 1px;
     box-shadow: 0px 0px 7px #ccc;
     font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pass-input{
+    width: 65%;
+    height: 50px;
+
+    margin-left: 19.5%;
+    margin-right: 13.5%;
+    margin-top: -15%;
+
+    float: left;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    box-shadow: 0px 0px 7px #ccc;
+    font-size: 24px;
+}
+
+.login-button{
+    width: 45%;
+    height: 55px;
+
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    margin-top: 13%;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    box-shadow: 0px 0px 7px #ccc;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .user-input{
@@ -292,7 +328,35 @@ li a:hover:not(.aktiv) {
     border-radius: 10px;
     border-color: rgba(0, 0, 0, 0);
 
-    box-shadow: 0px 0px 8px #ccc;
 
-    
+    text-align: center;
+    background-color: white;
+}
+
+.fa-envelope{
+    margin-top: -3%;
+    margin-left: 5%;
+    float: left;
+}
+
+.login-input-div{
+    width: 100%;
+}
+.fa-key{
+    margin-top: 22%;
+    margin-left: 5%;
+    float: left;
+}
+
+#log-in-text{
+    margin-top: -1%;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.login-body{
+    background-image: url(Screenshot_rss_formula_rss_supreme_bahrain_2020_20-5-122-23-12-0.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

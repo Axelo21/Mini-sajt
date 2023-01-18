@@ -1,5 +1,5 @@
 :root {
-    --topColor: #650000;
+    --topColor: #65000000;
   }
 
 body {
@@ -7,7 +7,6 @@ body {
     max-width: 100%;
     margin: 0;
 }
-
 
 .nav_bar {
     margin-top: -60px;
@@ -62,19 +61,11 @@ li a:hover:not(.aktiv) {
 }
   
 .aktiv {
-    background-color: #000000;
+    background-color: #ff000071;
 }
-
-.banner {
-
-    width: 80%;
-    margin-left: 2%;
-}
-
 
 .afr-text{
-    margin-top: -16%;
-    margin-left: 35%;
+    margin-top: -16%;  
     font-size: 4rem;
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -82,10 +73,8 @@ li a:hover:not(.aktiv) {
     opacity: 1;
 }
 
-
 .join-us-text{
-    margin-top: -5.8%;
-    margin-left: 45%;
+    margin-top: -5.8%;  
     font-size: 4rem;
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -100,15 +89,17 @@ li a:hover:not(.aktiv) {
 .join-us-text:hover{
     opacity: 1;
 }
+.banner {
+    text-align: center;
+    width: 100%;
+}
 
 .banner img{
-    width: 100%;
+    width: 80%;
     margin-left: 10%;
     margin-top: 70px;
     margin-right: 10%;
 }
-
-
 
 .search-bar {
     float: right;
@@ -125,10 +116,22 @@ li a:hover:not(.aktiv) {
     color: rgb(93, 0, 0);
 }
 
+.gallery-bottom-navbar{
+    height: 180px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #2e2e2e;
+    bottom: -1800px;
+    position: absolute;
+}
+
 .bottom-navbar{
-    height: 200px;
-    width: 100%;
-    background-color: #00000000;
+    height: 180px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #2e2e2e;
     bottom: -1000px;
     position: absolute;
 }
@@ -161,7 +164,6 @@ li a:hover:not(.aktiv) {
 .fa-house{
     color: white;
     transition: ease-in-out 0.5s;
-    margin-left: 1px;
     margin-top: 3px;
 }
 
@@ -184,8 +186,8 @@ li a:hover:not(.aktiv) {
 }
 
 .instagram{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .icon-left:hover{
@@ -197,16 +199,13 @@ li a:hover:not(.aktiv) {
 }
 
 .icon-container{
-    width: 50%;
+    width: 80%;
     height: 150px;
-    background-color: #000000bd;
-    margin-left: 25%;
-    margin-right: 25%;
-    border: 2px solid;
-    border-color: #000000bd;
-    border-bottom: 0px;
-    min-width: 400px;
-    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ff000000;
 }
 
 .HomePage-text-1{
@@ -269,13 +268,10 @@ li a:hover:not(.aktiv) {
 .email-input{
     width: 65%;
     height: 50px;
-
     margin-left: 19.5%;
     margin-right: 13.5%;
     margin-top: -14%;
-
     float: left;
-
     border-style: solid;
     border-radius: 10px;
     border-color: #b3b3b3;
@@ -288,13 +284,10 @@ li a:hover:not(.aktiv) {
 .pass-input{
     width: 65%;
     height: 50px;
-
     margin-left: 19.5%;
     margin-right: 13.5%;
     margin-top: -15%;
-
     float: left;
-
     border-style: solid;
     border-radius: 10px;
     border-color: #b3b3b3;
@@ -306,11 +299,9 @@ li a:hover:not(.aktiv) {
 .login-button{
     width: 45%;
     height: 5%;
-
     margin-left: 27.5%;
     margin-right: 27.5%;
     margin-top: 5%;
-
     border-style: solid;
     border-radius: 10px;
     border-color: #b3b3b3;
@@ -326,7 +317,7 @@ li a:hover:not(.aktiv) {
     border-color: rgba(0, 0, 0, 0);
     text-align: center;
     background-color: white;
-    height: 50vh;
+    height: 60vh;
 }
 
 .fa-envelope{
@@ -338,8 +329,11 @@ li a:hover:not(.aktiv) {
 .login-input-div{
     width: 100%;
 }
+.login-input-div2{
+    width: 100%;
+}
 .fa-key{
-    margin-top: 22%;
+    margin-top: 17%;
     margin-left: 5%;
     float: left;
 }
@@ -351,7 +345,7 @@ li a:hover:not(.aktiv) {
 }
 
 .login-body{
-    background-image: url(Screenshot_rss_formula_rss_supreme_bahrain_2020_20-5-122-23-12-0.png);
+    background-image: url(PNG/Screenshot_rss_formula_rss_supreme_bahrain_2020_20-5-122-23-12-0.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -369,7 +363,6 @@ li a:hover:not(.aktiv) {
     margin: 15px;
     margin-bottom: 20px;
     height: 15%;
-    
     float: left;
 }
 .shop-img img{
@@ -399,7 +392,6 @@ li a:hover:not(.aktiv) {
     margin: 15px;
     margin-bottom: 20px;
     height: 15%;
-    
     float: left;
 }
 
@@ -420,13 +412,41 @@ li a:hover:not(.aktiv) {
     opacity: 0;
 }
 
+.gallery-div{
+    width: 100%;
+    height: 80%;
+}
+
+.gallery-img{
+    width: 80%;
+    height: 20%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.gallery-img img{
+    width: 100%;
+}
+
+.top-img{
+    margin-top: 20%;
+}
 
 @media screen and (max-width: 600px) {
+    .gallery-bottom-navbar{
+        bottom: -800px;
+    }
+    .icon-far-left{
+        margin-left: 1%;
+    }
+    .icon-far-right{
+        margin-right: 1%;
+    }
 .user-input{
     width: 80%;
     margin-right: 10%;
-    margin-left: 10%;
-    
+    margin-left: 10%; 
 }
 
 li {
@@ -437,12 +457,10 @@ li {
     background-color: #333;
     position: relative;
   }
-  
-  
+
   .topnav #myLinks {
     display: none;
   }
-  
 
   .topnav a {
     color: white;
@@ -451,8 +469,7 @@ li {
     font-size: 17px;
     display: block;
   }
-  
- 
+
   .topnav a.icon {
     background: black;
     display: block;
@@ -461,12 +478,10 @@ li {
     top: 0;
   }
   
- 
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  
   
   .active {
     background-color:var(--topColor);
@@ -474,17 +489,25 @@ li {
   }
   .afr-text{
     margin-top: -16%;
-    margin-left: 35%;
-    font-size: 0.5rem;
+ 
+    font-size: 10px;
 }
 
 .join-us-text{
-    margin-top: -5.8%;
-    margin-left: 45%;
-    font-size: 0.5rem;
+    margin-top: -3%;
+    font-size: 10px;
 }
 }
 @media screen and (min-width: 600px) {
+    .gallery-bottom-navbar{
+        bottom: -800px;
+    }
+    .icon-far-left{
+        margin-left: 7.5%;
+    }
+    .icon-far-right{
+        margin-right: 7.5%;
+    }
     .user-input{
         width: 80%;
         margin-right: 10%;
@@ -498,35 +521,35 @@ li {
         width: 100px;
     }
     
-      
-      
       .active {
         background-color: var(--topColor);
         color: white;
       }
       .afr-text{
         margin-top: -16%;
-        margin-left: 35%;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     
     .join-us-text{
-        margin-top: -5.8%;
-        margin-left: 45%;
-        font-size:0.5rem;
+        margin-top: 5%;
+        font-size:1rem;
     }
     
 }
 
 @media screen and (min-width: 768px) {
+    .icon-far-left{
+        margin-left: 17.5%;
+    }
+    .icon-far-right{
+        margin-right: 17.5%;
+    }
 .user-input{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;  
 }
-.login-button{
-    margin-top: 10%;
-}
+
 .login-button{
     margin-top: 10%;
 }
@@ -536,29 +559,31 @@ li {
 
 .afr-text{
     margin-top: -16%;
-    margin-left: 35%;
     font-size: 2rem;
 }
 
 .join-us-text{
     margin-top: -5.8%;
-    margin-left: 45%;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 }
 @media screen and (max-width: 768px) {
+    .gallery-bottom-navbar{
+        bottom: -1300px;
+    }
+    .icon-far-left{
+        margin-left: 17.5%;
+    }
     .topnav {
         overflow: hidden;
         background-color: #333;
         position: relative;
       }
       
-      
       .topnav #myLinks {
         display: none;
       }
-      
       
       .topnav a {
         color: white;
@@ -568,7 +593,6 @@ li {
         display: block;
       }
       
-      
       .topnav a.icon {
         background: black;
         display: block;
@@ -577,12 +601,10 @@ li {
         top: 0;
       }
       
-      
       .topnav a:hover {
         background-color: #ddd;
         color: black;
       }
-      
       
       .active {
         background-color: var(--topColor);
@@ -594,29 +616,37 @@ li {
 
     .nav_bar{
         opacity: 0;
+        margin-top: -300px;
     }
     .afr-text{
         margin-top: -16%;
-        margin-left: 35%;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     .join-us-text{
         margin-top: -5.8%;
-        margin-left: 45%;
         font-size: 2rem;
     }
 }
 @media screen and (min-width: 992px) {
+    .gallery-bottom-navbar{
+        bottom: -1400px;
+    }
 .user-input{
     width: 40%;
     margin-right: 30%;
     margin-left: 30%;
-    
-    
 }
 .login-button{
     margin-top: 10%;
+}
+
+.pass-input{
+    margin-top: -10%;
+}
+
+.email-input{
+    margin-top: -8%;
 }
 
 li {
@@ -624,19 +654,30 @@ li {
 }
 .afr-text{
     margin-top: -16%;
-    margin-left: 35%;
     font-size: 3rem;   
 }
 
 
 .join-us-text{
     margin-top: -5.8%;
-    margin-left: 45%;
     font-size: 3rem;
+}
+.nav_bar{
+    margin-top: -60px;
+}
+
+.icon-far-left{
+    margin-left: 25%;
 }
 }
 
 @media screen and (min-width: 1200px) {
+    .gallery-bottom-navbar{
+        bottom: -1800px;
+    }
+    .icon-far-left{
+        margin-left: 33%;
+    }
     .user-input{
         width: 30%;
         margin-left: 35%;
@@ -647,15 +688,17 @@ li {
     }
     .afr-text{
         margin-top: -16%;
-        margin-left: 35%;
         font-size: 4rem;   
     }
     
     
     .join-us-text{
         margin-top: -5.8%;
-        margin-left: 45%;
         font-size: 4rem;
     }
+    .nav_bar{
+        margin-top: -60px;
+    }
 }
+
 

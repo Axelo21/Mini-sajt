@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width-device-width, inital-scale=1">
     <meta charset="UTF-8">
     <title>Assetto Formula Racing</title>
     <link rel="stylesheet" href="Styles.css">
     <script src="https://kit.fontawesome.com/894de8aefb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="PNG/afr_glow.png">
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
 </head>
 <body>
+    <nav>
+    <div class="topnav">
+        <a href="AboutUsPage.html" class="active">About Us</a>
+        
+        <div id="myLinks">
+          <a href="HomePage.html">Home</a>
+          <a href="ShopPage.html">Shop</a>
+          <a href="GalleryPage.html">Gallery</a>
+        </div>
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div class="nav_bar">
-        <a href="HomePage.html"><img src="afr_glow.png" alt=""></a>
+        <a href="HomePage.html"><img src="PNG/afr_glow.png" alt=""></a>
         <ul>
             <li id="li-shop"><a href="ShopPage.html">Shop</a></li>
             <li><a href="GalleryPage.html">Gallery</a></li>
-            <li><a href="AboutUsPage.html">About Us</a></li>
+            <li class="aktiv"><a href="AboutUsPage.html">About Us</a></li>
         </ul>
 
         <div class="search-bar">
@@ -25,8 +51,10 @@
 
 
     </div>
+</nav>
+    <main>
     <div class="banner">
-        <img src="mini-sajt-banner.png" alt="">
+        <img src="PNG/mini-sajt-banner.png" alt="">
         <p class="afr-text">Assetto Formula Racing</p>
         <a href="https://www.assettoformularacing.co.uk/" class="join-us-link"><p class="join-us-text">Join Us Today</p></a>
     </div>
@@ -36,10 +64,9 @@
         <p>Assetto Formula Racing, also known as AFR was founded in November of 2020. It was created by Nikodem Szaszka, Chase Bockman and Axel Österberg. After a slow start to the league and major improvements to our streaming and penalty systems it was gaining popularity and today we are hounored to be one of the biggest and highest quality league in the Assetto Corsa Community. AFR aprovides high quality racing in both open wheel cars, Le Mans Prototypes and GTE with live stewarding. If racing isn't what you're looking for, AFR is still a great place to meet and engage with people all around the world who all share the same hobbies.</p>
         <p>If you want to join our server or league just click the large "Join Us Today" text and follow the instructions to find the link to our Discord server. Recently we also decided to merge Assetto Endurance Racing, AER with AFR under the AFR brand. This still means that endurance will take place, including championships. We also have opened up more to our community and allowed people to start their own leagues under the AFR brand with our premission. AFR takes care of all broadcasting including a Indy Car and Rally championships. For further questions, either message any admins in the Discord server och DM AFR on Instagram.</p>
     </div>
-    <div class="current-standings">
-        <img src="formulahybrid_season8_driver_standings.png" alt="">
-        <img src="superformula_season8_driver_standings_sf.png" alt="">
+ 
     </div>
+</main>
     <footer>
     <div class="bottom-navbar">
         <div class="icon-container">

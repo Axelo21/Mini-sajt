@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width-device-width, inital-scale=1">
     <meta charset="UTF-8">
     <title>Assetto Formula Racing</title>
     <link rel="stylesheet" href="Styles.css">
     <script src="https://kit.fontawesome.com/894de8aefb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="PNG/afr_glow.png">
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
 </head>
 <body>
+    <nav>
+    <div class="topnav">
+        <a href="ShopPage.html" class="active">Shop</a>
+        
+        <div id="myLinks">
+          <a href="HomePage.html">Home</a>
+          <a href="GalleryPage.html">Gallery</a>
+          <a href="AboutUsPage.html">About Us</a>
+        </div>
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div class="nav_bar">
-        <a href="HomePage.html"><img src="afr_glow.png" alt=""></a>
+        <a href="HomePage.html"><img src="PNG/afr_glow.png" alt=""></a>
         <ul>
-            <li id="li-shop"><a href="ShopPage.html">Shop</a></li>
+            <li id="li-shop" class="aktiv"><a href="ShopPage.html">Shop</a></li>
             <li><a href="GalleryPage.html">Gallery</a></li>
             <li><a href="AboutUsPage.html">About Us</a></li>
         </ul>
@@ -22,32 +48,33 @@
         <div class="login-div">
             <a href="LoginPage.html"><i class="fa-solid fa-user fa-2x"></i></a>
         </div>
-
-
+    </nav>
+<main>
     </div>
     <div class="banner">
-        <img src="mini-sajt-banner.png" alt="">
+        <img src="PNG/mini-sajt-banner.png" alt="">
         <p class="afr-text">Assetto Formula Racing</p>
         <a href="https://www.assettoformularacing.co.uk/" class="join-us-link"><p class="join-us-text">Join Us Today</p></a>
     </div>
 
     <div class="shop-div">
         <div class="shop-img">
-            <a href="PageNotFound.html"><img src="AFR-Cap.png" alt=""></a>
+            <a href="PageNotFound.html"><img src="PNG/AFR-Cap.png" alt=""></a>
         </div>
         <div class="shop-img-special">
-            <a href="PageNotFound.html"><img src="AFR-svart-hoodie.png" alt=""></a>
+            <a href="PageNotFound.html"><img src="PNG/AFR-svart-hoodie.png" alt=""></a>
         </div>
         <div class="shop-img">
-            <a href="PageNotFound.html"><img src="AFR-svart-t-shirt.png" alt=""></a>
+            <a href="PageNotFound.html"><img src="PNG/AFR-svart-t-shirt.png" alt=""></a>
         </div>
         <div class="shop-img">
-            <a href="PageNotFound.html"><img src="AFR-vit-hoodie.png" alt=""></a>
+            <a href="PageNotFound.html"><img src="PNG/AFR-vit-hoodie.png" alt=""></a>
         </div>
         <div class="shop-img">
-        <a href="PageNotFound.html"><img src="AFR-vit-t-shirt.png" alt=""></a>
+        <a href="PageNotFound.html"><img src="PNG/AFR-vit-t-shirt.png" alt=""></a>
         </div>
 </div>
+</main>
     <footer>
     <div class="bottom-navbar">
         <div class="icon-container">
